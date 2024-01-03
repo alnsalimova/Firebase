@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="ru.mirea.salimovaar.mireaproject.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="ru.mirea.salimovaar.mireaproject.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="ru.mirea.salimovaar.mireaproject.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_map"
+        android:name="ru.mirea.salimovaar.mireaproject.ui.map.map"
+        android:label="@string/menu_map"
+        tools:layout="@layout/fragment_map" />
+    <fragment
+        android:id="@+id/profile"
+        android:name="ru.mirea.salimovaar.mireaproject.ui.profie.profile"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/file"
+        android:name="ru.mirea.salimovaar.mireaproject.ui.file.file"
+        android:label="fragment_file"
+        tools:layout="@layout/fragment_file" />
+    <fragment
+        android:id="@+id/compass"
+        android:name="ru.mirea.salimovaar.mireaproject.ui.compas.compass"
+        android:label="fragment_compass"
+        tools:layout="@layout/fragment_compass" />
+    <fragment
+        android:id="@+id/camera"
+        android:name="ru.mirea.salimovaar.mireaproject.ui.camera.camera"
+        android:label="fragment_camera"
+        tools:layout="@layout/fragment_camera" />
+    <fragment
+        android:id="@+id/microphone"
+        android:name="ru.mirea.salimovaar.mireaproject.ui.microphone.microphone"
+        android:label="fragment_microphone"
+        tools:layout="@layout/fragment_microphone" />
+
+</navigation>
